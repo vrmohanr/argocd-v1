@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/vrmohanr/argocd-v1.git
     targetRevision: main
-    path: applications/roboshop-uat
+    path: applications/cluster/roboshop-uat
 
   # Destination configuration pointing to the target cluster and namespace
   destination:
