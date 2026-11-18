@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: roboshop-sit
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
+  labels:
+    environment: sit
+    project: roboshop
+    purpose: poc
