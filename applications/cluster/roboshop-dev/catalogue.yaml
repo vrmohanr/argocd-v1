@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: catalogue
   namespace: argocd
-  # The finalizer enables cascading deletes (deleting this app deletes its resources)
+  # The finalizer enables cascading deletes (deleting this app deletes its resources) Ram
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
